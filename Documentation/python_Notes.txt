@@ -5,12 +5,17 @@ Create a python virtual environment in Ubuntu
 
 2.-Within the desired directory run the following command to create your new virtual environment:
 
-    python3 -m venv my-project-env
+    python3 -m venv my-project-venv
 
 3.- To start using this virtual environment, you need to activate it by running the activate script:
 
-    source my-project-env/bin/activate
+    source my-project-venv/bin/activate
 
     Once activated, the virtual environment’s bin directory will be added at the beginning of the $PATH variable
     Also your shell’s prompt will change and it will show the name of the virtual environment you’re currently using.
+    Now that the virtual environment is activated, we can start installing, upgrading, and removing packages using pip.
+
+4.- Once you are done with your work to deactivate the environment, simply type deactivate and you will return to your normal shell.
+
+    deactivate
     
