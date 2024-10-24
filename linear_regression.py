@@ -8,4 +8,4 @@ import warnings
 
 df = sns.load_dataset("mpg")
 
-print("output success {}".format("GOOD!!"))
+print("{}".format(df.head()))
