@@ -1,4 +1,4 @@
-Create a python virtual environment in Ubuntu
+Create a python virtual environment in Ubuntu 18.04
 1.- python3-venv package that provides the venv module must be installed.
 
     sudo apt install python3-venv
@@ -18,4 +18,32 @@ Create a python virtual environment in Ubuntu
 4.- Once you are done with your work to deactivate the environment, simply type deactivate and you will return to your normal shell.
 
     deactivate
+
+
+Create a python virtual environment in Ubuntu 22.04
+1.- Virtualenv install.
+    Virtualenv is used to isolate virtual environments for python projects.We install it using pip3 by running the command below.
+
+    sudo pip3 install virtualenv 
+
+2.- Creating a virtual environment.
+    Next, we create the virtual environment, which is done by running the command below.
+
+    virtualenv venv 
+
+    Point to note: You can use your preferred name in place of “venv”.
+
+After running the command above, a directory named venv appears at the root of your project. The said directory contains python executable files.
+
+3.- Activating virtual environment.
+    All we have left to do now is activate our virtual environment. Let’s run the final command to activate our environment .
+
+    source venv/bin/activate
+    Voila! Our python virtual environment is now set up and activated.
+
+4.- Deactivating the virtual environment.
+    For one reason or the other, we might need to deactivate our environment. To do this, we run the command below.
+
+    deactivate
+    Now you have a step by step guide on how to create, activate, and deactivate a python environment.
     
